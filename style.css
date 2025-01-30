@@ -1,0 +1,62 @@
+/* สไตล์สำหรับ body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* สีพื้นหลังอ่อน */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333; /* สีข้อความ */
+  }
+  
+  /* สไตล์สำหรับ h1 */
+  h1 {
+    color: #0066cc;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+    background-color: #e6f2ff;
+    border-bottom: 2px solid #0066cc;
+  }
+  
+  /* สไตล์สำหรับลิงก์ใน navbar */
+  .navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #004d99;
+    text-align: center;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin: 0;
+  }
+  
+  .navbar li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    display: inline-block;
+  }
+  
+  .navbar li a:hover {
+    background-color: #0066cc;
+    transition: 0.3s ease;
+  }
+  
+  /* สไตล์สำหรับย่อหน้า */
+  p {
+    padding: 0 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: justify;
+    font-size: 1rem;
+  }
+  
+  /* เพิ่มความสวยงามให้กับตัวอักษร &hellip; */
+  p::after {
+    content: ' 🙂';
+    font-size: 1.2rem;
+    color: #0066cc;
+  }
+  
